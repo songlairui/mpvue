@@ -4111,7 +4111,7 @@ function getWxEleId (index, arr) {
   }
 
   var str = arr.join("+'-'+");
-  return ("'" + index + "_'+" + str)
+  return ("'" + index + "o'+" + str)
 }
 
 // 检查不允许在 v-for 的时候出现2个及其以上相同 iterator1
